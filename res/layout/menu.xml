@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:background="#00000000"
+android:layout_height="fill_parent"
+android:layout_width="fill_parent"
+android:padding="15dip"
+android:orientation="horizontal" >
+
+<LinearLayout
+android:orientation="vertical"
+android:layout_height="wrap_content"
+android:layout_width="fill_parent"
+android:layout_gravity="center"
+android:paddingLeft="20dip"
+android:paddingRight="20dip" >
+
+    <ImageView
+	android:background="#00000000"
+    android:src="@drawable/ispy3"
+    android:adjustViewBounds="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity = "center"
+    android:layout_marginBottom="20dip"/>
+    
+<!--<TextView
+android:text="@string/main_title"
+android:layout_height="wrap_content"
+android:layout_width="wrap_content"
+android:layout_gravity="center"
+android:layout_marginBottom="20dip"
+android:textSize="24.5sp" />
+-->
+
+<TableLayout
+android:layout_height="wrap_content"
+android:layout_width="wrap_content"
+android:layout_gravity="center"
+android:stretchColumns="*" >
+
+<TableRow>
+    <Button 
+ 	android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:id="@+id/email" 
+    android:text="Email Settings"
+    android:width="150dip"
+    android:layout_gravity="center"/>
+    
+     <Button 
+ 	android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:id="@+id/about" 
+    android:text="About"
+    android:width="150dip"
+    android:layout_gravity="center"/>
+</TableRow>
+
+<TableRow>
+     <Button 
+ 	android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:id="@+id/detect" 
+    android:text="Face Detect"
+    android:width="150dip"
+    android:layout_gravity="center"/>
+    
+    <Button android:id="@+id/track" 
+     android:layout_width="wrap_content" 
+     android:text="Face Track" 
+     android:width="150dip" 
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"/>
+     
+</TableRow>
+
+</TableLayout>
+
+</LinearLayout>
+</LinearLayout>

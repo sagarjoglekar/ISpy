@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:textSize = "22dip"
+		android:textStyle = "bold"
+		android:text="iSpy"/>
+	
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:textSize = "15dip"
+		android:paddingTop="15dip"
+		android:paddingBottom="15dip"
+		android:text="     A Real Time handheld Surveilllance Application using Face detection 
+		and tracking on Android Platform. To use this application, user first needs to 
+		set up an email address where the Alert is need to be sent. Then, depending upon user's choice,
+		only Face detection or detection plus continuous tracking can be turned ON." />
+		
+		<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:textSize = "18dip"
+		android:paddingTop="15dip"
+		android:paddingBottom="15dip"
+		android:textStyle = "italic"
+		android:text="by Sanmay, Sagar and Rucha"/>
+		
+		<Button 
+		android:id="@+id/about_ok" 
+     android:layout_width="wrap_content" 
+     android:text="OK" 
+     android:width="150dip" 
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"/>
+	
+	
+</LinearLayout>
+	
+	
+	
