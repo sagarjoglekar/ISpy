@@ -51,16 +51,16 @@ public class ISpyMain extends Activity {
 //			} 
 //		});
 		
-		Button email = (Button) findViewById(R.id.email); 
-		email.setOnClickListener(new View.OnClickListener() 
-		{ 
-			public void onClick(View view) 
-			{ 
-				Intent myEmail = new Intent(ISpyMain.this, email.class );
-		        startActivity (myEmail);
-				 
-			} 
-		});
+//		Button email = (Button) findViewById(R.id.email); 
+//		email.setOnClickListener(new View.OnClickListener() 
+//		{ 
+//			public void onClick(View view) 
+//			{ 
+//				Intent myEmail = new Intent(ISpyMain.this, email.class );
+//		        startActivity (myEmail);
+//				 
+//			} 
+//		});
 		
 		Button about = (Button) findViewById(R.id.about); 
 		about.setOnClickListener(new View.OnClickListener() 
