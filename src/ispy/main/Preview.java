@@ -268,34 +268,8 @@ public class Preview extends SurfaceView implements SurfaceHolder.Callback {
 
 	  public void Send_email()
 	  {
-		  Mail m = new Mail("rpi26588@gmail.com", "goleta123"); 
+		  Log.d("ISPY", "Email Sending not supported");
+	  }
 
-	      //String[] toArr = {"ispy.ece594@gmail.com"}; 
-	String[] toArr = global.addr_email;
-	Log.d("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$Email",toArr[0]);
-	m.setTo(toArr);
-	m.setFrom("rpi26588@gmail.com"); 
-	m.setSubject("Privacy Breached!!"); 
-	m.setBody("This person has breached the perimeter.");
-
-	try 
-	{ 
-		m.addAttachment("/sdcard/face"+Integer.toString(i-1)+".jpg"); 
-
-		if(m.send()) 
-		{ 
-			Log.e("EMAIL","EMAIL SENT"); 
-		} 
-		else 
-		{ 
-			Log.e("EMAIL","NOT SENT"); 
-		} 
-	} 
-	catch(Exception e) 
-	{ 
-		//Toast.makeText(MailApp.this, "There was a problem sending the email.", Toast.LENGTH_LONG).show(); 
-		Log.e("MailApp", "Could not send email", e); 
-	} 
-} 
 	  
 }
