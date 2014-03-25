@@ -10,3 +10,10 @@
 *.class
 
 *.class
+
+*.png
+
+*.ap_
+
+/bin/*
+
